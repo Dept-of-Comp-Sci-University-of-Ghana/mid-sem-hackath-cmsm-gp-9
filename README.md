@@ -1,1 +1,28 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__W9NUn_)
+# Mental Health Detection
+
+This repository contains the code for Group 9's midsem hackathon project in Computational Models for Social Media Mining. The goal of this project is to develop a system that detects mental health issues from social media data.
+
+## Installation
+
+To set up the project and install the required dependencies, follow these steps:
+
+1. Clone the repository to your local machine.
+
+2. Create a virtual environment for the project. Using a virtual environment is recommended to isolate the project's dependencies. Run the following command to create a virtual environment:
+
+> ```python -m venv myenv```
+Replace myenv with the desired name for your virtual environment.
+
+3. Activate the virtual environment. The command to activate the virtual environment depends on your operating system:
+
+- For Windows:
+  
+```myenv\Scripts\activate```
+
+- For macOS/Linux:
+
+```source myenv/bin/activate```
+
+1. Install the project dependencies by running the following command:
+
+```pip install -r requirements.txt```
