@@ -6,13 +6,13 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, roc_auc_score, roc_curve, precision_recall_curve
-from sklearn.model_selection import GridSearchCV
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from wordcloud import WordCloud
 
 import nltk
 nltk.download('wordnet')
+nltk.download('stopwords')
 
 # Load the dataset
 dataset = pd.read_csv('Mental-Health-Twitter.csv').drop(['Unnamed: 0'], axis=1)
